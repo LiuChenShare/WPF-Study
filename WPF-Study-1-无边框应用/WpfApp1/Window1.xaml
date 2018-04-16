@@ -1,0 +1,34 @@
+﻿<DMSkin:DMSkinWindow x:Class="WpfApp1.Window1"
+        xmlns:DMSkin="clr-namespace:DMSkin.WPF;assembly=DMSkin.WPF"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d" Title="Window1"
+Foreground="White"
+Background="White"
+DMShowMin="True"
+DMShowMax="True"
+DMShowClose="True"
+DMWindowShadowSize="10"
+DMWindowShadowColor="#FFC8C8C8"
+DMWindowShadowBackColor="#FF323CAD"
+DMSystemButtonSize="50"
+DMSystemButtonForeground="#FF666666"
+DMSystemButtonHoverColor="#33000000"
+DMSystemButtonHoverForeground="White"
+DMSystemButtonCloseHoverColor="Red"
+DMSystemButtonShadowEffect="0"
+ResizeMode="CanResizeWithGrip"
+Height="700" Width="1000"
+MinHeight="268" MinWidth="360"
+WindowStartupLocation="CenterScreen">
+
+    <Border Background="White" CornerRadius="5"  BorderThickness="1">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="12" ShadowDepth="0" Color="#88000000"/>
+        </Border.Effect>
+        <ResizeGrip  HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" VerticalAlignment="Bottom" HorizontalAlignment="Right"></ResizeGrip>
+    </Border>
+</DMSkin:DMSkinWindow>

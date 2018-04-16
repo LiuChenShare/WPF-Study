@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d" AllowsTransparency="True" WindowStyle="None" Background="#33000000"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="154,88,0,0" VerticalAlignment="Top" Width="170" Height="61" SnapsToDevicePixels="True">
+            <Button.Effect>
+                <BlurEffect Radius="20"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="154,186,0,0" VerticalAlignment="Top" Width="170" Height="71">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="20" Color="#FFF51313" BlurRadius="10"/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>
