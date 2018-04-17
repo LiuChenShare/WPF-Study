@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1._6_Viewbox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="_6_Viewbox" Height="450" Width="800">
+    <Grid>
+        <Viewbox Stretch="Uniform" HorizontalAlignment="Left" Height="199" Margin="43,50,0,0" VerticalAlignment="Top" Width="280">
+            <Grid>
+                <Button Width="20" Height="20" Content="1" Margin="0,0,41,20"/>
+                <Button Width="20" Height="20" Content="2" Margin="7,20,34,0"/>
+                <Button Content="3" Margin="32,21,0,0"/>
+            </Grid>
+        </Viewbox>
+
+    </Grid>
+</Window>

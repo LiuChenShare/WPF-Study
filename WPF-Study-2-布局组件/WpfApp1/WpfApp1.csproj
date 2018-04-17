@@ -54,10 +54,66 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="1_Canvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="2_StackPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="3_WrapPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="4_DockPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="5_Grid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="6_Viewbox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="7_ScrollViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="8_实际运用.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="1_Canvas.xaml.cs">
+      <DependentUpon>1_Canvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="2_StackPanel.xaml.cs">
+      <DependentUpon>2_StackPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="3_WrapPanel.xaml.cs">
+      <DependentUpon>3_WrapPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="4_DockPanel.xaml.cs">
+      <DependentUpon>4_DockPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="5_Grid.xaml.cs">
+      <DependentUpon>5_Grid.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="6_Viewbox.xaml.cs">
+      <DependentUpon>6_Viewbox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="7_ScrollViewer.xaml.cs">
+      <DependentUpon>7_ScrollViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="8_实际运用.xaml.cs">
+      <DependentUpon>8_实际运用.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -85,6 +141,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="布局组件.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

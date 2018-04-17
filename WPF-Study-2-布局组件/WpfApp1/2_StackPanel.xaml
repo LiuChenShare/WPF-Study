@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1._2_StackPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="_2_StackPanel" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="236" Margin="145,75,0,0" VerticalAlignment="Top" Width="330">
+            <Button Content="Button"/>
+            <Button Content="Button"/>
+            <Button Content="Button"/>
+            <Button Content="Button"/>
+            <Button Content="Button"/>
+            <Button Content="Button"/>
+            <Label Content="Labeldaww"/>
+            <Label Content="Label21321312"/>
+            <TextBlock Text="TextBlock"/>
+            <TextBlock>
+                <Button Content="Button"/>
+            </TextBlock>
+        </StackPanel>
+
+    </Grid>
+</Window>
